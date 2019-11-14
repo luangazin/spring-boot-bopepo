@@ -1,0 +1,48 @@
+# Created by https://www.gitignore.io/api/ava,gradle
+
+#!! ERROR: ava is undefined. Use list command to see defined gitignore types !!#
+
+### Gradle ###
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+*target*
+*.jar
+*.war
+*.ear
+*.class
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle/wrapper/gradle-wrapper.jar
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+#InteliJ
+.idea/**/*
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Extras
+.attach_pid*
+
+
